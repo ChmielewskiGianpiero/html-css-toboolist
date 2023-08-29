@@ -7,7 +7,7 @@
 }
 
 .container {
-    max-width: 980px;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -16,6 +16,8 @@
 
 .header{
     padding: 30px;
+    background-color: white;
+    width:1485px;
 }
 
 .header__logo{
@@ -28,4 +30,57 @@
 .header__logo-image{
     vertical-align: middle;
     width: 68px;
+}
+
+/* bg page color */
+.bg-page{
+    background-color:#F6F8F9;
+}
+
+.bg-main-section{
+    background-color: white;
+    height: 460px;
+    width: 700px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+
+.bg-aside{
+    background-color: white;
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px ;
+}
+
+
+/* aside */
+
+.bg-aside__button{
+    text-align: end;
+    max-width: 273px;
+    padding-top: 12px;
+}
+
+.button-task{
+    background-color: #47ADF1;
+    border: none;
+    color: white;
+    padding: 3px 11px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-section{
+    background-color: #E1E4E6;
+    border: none;
+    color: white;
+    padding: 3px 11px;
+    font-size: 16px;
+    border-radius: 5px;
 }
