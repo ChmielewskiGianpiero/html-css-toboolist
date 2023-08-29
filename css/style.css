@@ -1,0 +1,31 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+/* header logo */
+
+.header{
+    padding: 30px;
+}
+
+.header__logo{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.header__logo-image{
+    vertical-align: middle;
+    width: 68px;
+}
