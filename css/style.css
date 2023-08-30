@@ -21,7 +21,7 @@
 .header{
     padding: 30px;
     background-color: white;
-    width:1685px;
+    width:1920px;
 }
 
 .header__logo{
@@ -43,8 +43,8 @@
 
 .bg-main-section{
     background-color: white;
-    height: 460px;
-    width: 660px;
+    height: 600px;
+    width: 860px;
     margin-top: 35px;
     margin-bottom: 35px;
     border-bottom-left-radius: 10px;
@@ -56,7 +56,7 @@
 .bg-aside{
     background-color: white;
     height: 50px;
-    width: 700px;
+    width: 900px;
     margin: 0 auto;
     margin-top: 33px;
     margin-bottom: -30px;
@@ -91,11 +91,11 @@
     border-radius: 5px;
 }
 
-/* new task section */
+/* section */
 
 .list__card {
     list-style-type: none;
-    padding-top: 15px;
+    padding-top: 20px;
     
 }
 
@@ -122,8 +122,11 @@
 }
 
 .section{
-    padding-top: 30px;
+    padding-top: 50px;
 }
+
+
+/* colors */
 
 .blue{
     background-color: #45ABE9;
@@ -142,3 +145,10 @@
     background-color:#F29E33 ;
 }
 
+.pink{
+    background-color:#D863A0;
+}
+
+.green-lime{
+    background-color: #B0C926;
+}
